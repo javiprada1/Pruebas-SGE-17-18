@@ -24,4 +24,8 @@ function menuItem2() {
   var name = SpreadsheetApp.getActive().getName();
   //Mostramos la variable en el log
   Logger.log("Nombre de la Sheet: "+name);
+  //Obtenemos en una veriable el nombre de la segunda HCG
+  var name2 = SpreadsheetApp.openById("1KzCR7qhMjfWJImIWO-Zp3oeVcLM8jmzdOO_KvqHjpLo").getName();
+  //Mostramos la segunda variable
+  Logger.log("Nombre de la segunda Sheet: "+name2);
 }
